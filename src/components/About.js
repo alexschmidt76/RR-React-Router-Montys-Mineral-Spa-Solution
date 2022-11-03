@@ -12,5 +12,5 @@ export default function About () {
             <p>Upon his return, he dedicated about 1% of his wealth to open this Mineral SPA to bring joy and spiritual happiness to others</p>
             <img src="hotsprings.jpg" alt="hotsprings" />I 
         </div>
-    )
+    );
 }

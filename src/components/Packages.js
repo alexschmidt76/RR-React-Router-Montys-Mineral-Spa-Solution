@@ -1,7 +1,7 @@
 
 
 export default function Packages(props) {
-    const displayPackages = props.packages.map((eachPackage) => <li>{eachPackage}</li>)
+    const displayPackages = props.packages.map((eachPackage) => <li>{eachPackage}</li>);
 
     return (
         <div>
@@ -14,5 +14,5 @@ export default function Packages(props) {
                 </ul>
             </div>
         </div>
-    )
+    );
 }
