@@ -1,5 +1,5 @@
-import Card from 'react-bootstrap/Card';
-import Container from 'react-bootstrap/Container';
+import { Card, Container } from 'react-bootstrap';
+import hotspringsImage from '../images/hotsprings.jpg';
 
 export default function About () {
     return (
@@ -20,7 +20,7 @@ export default function About () {
                         Upon his return, he dedicated about 1% of his wealth to open this Mineral SPA to bring joy and spiritual happiness to others
                     </Card.Text>
                 </Card.Body>
-                <Card.Img style={{'width': '50%', margin: '0 auto'}} variant='bottom' src='../images/hotsprings.jpg' />
+                <Card.Img style={{'width': '50%', margin: '0 auto'}} variant='bottom' src={hotspringsImage} />
             </Card>
         </Container>
     );
